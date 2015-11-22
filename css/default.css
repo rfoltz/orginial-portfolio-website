@@ -1,0 +1,44 @@
+.intro-section {
+	padding:25% 0;
+	background: url("../images/DeathtoStock_Wired3.jpg") center/cover;
+}
+
+.intro-title {
+	color:#fff;
+}
+
+@media(min-width:768px) {
+	.content-section {
+		padding: 40px 40px 20px;
+	}
+}
+@media(min-width:768px) {
+	.random-facts {
+		font-size: 18px;
+	}
+}
+
+/**
+Typed CSS for the blinking cusor
+**/
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

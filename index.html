@@ -19,8 +19,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <nav class="navbar navbar-fixed-top">
+  <body data-spy="scroll" data-target="#navbar-collapse">
+    <nav class="navbar navbar-translucent navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -36,10 +36,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="navbar-collapse" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="#">Intro</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#intro">Intro</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -47,17 +47,17 @@
       <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid">
-      <div class="row intro-section">
+      <div id="intro" class="row intro-section">
         <div class="col-xs-12 text-center">
           <h1 class="intro-title">Hi I'm Robert. I'm a <span class="typed-text"></span></h1>
         </div>
       </div>
-      <div class="row content-section">
+      <div id="about" class="row content-section">
         <div class="col-xs-12">
           <div class="text-center">
             <h2 class="section-header">About Me</h2>
           </div>
-          <p class="lead">Hey there my name is Robert if you haven't guessed already. I'm a full-stack web developer I typically work on dashboards and other reporting type web pages for businesses. I love to code but unfortunately I haven't had time to flesh out my portfolio, in the coming year I hope to be able to do make more website and web applications and learn more about design so I can really become a great developer.</p>
+          <p class="lead">Hey there my name is Robert if you haven't already guessed, I'm a full-stack web developer. I typically work on dashboards and other reporting type web pages for businesses. I love to code but unfortunately I haven't had time to flesh out my portfolio, in the coming year I hope to be able to do make more website and web applications and learn more about design so I can really become a great developer.</p>
         </div>
         <div class="col-xs-12 col-sm-6">
           <h4>Skills that pay the bills</h2>
@@ -100,13 +100,13 @@
           </ul>
         </div>
       </div>
-      <div class="row content-section">
+      <div id="work" class="row content-section">
         <div class="col-xs-12 text-center">
             <h2 class="section-header">Portfolio</h2>
-            <p class="lead">Sadly there isn't much here to see, but there will be eventually!</p>
+            <p class="lead">Sadly there isn't anything here :( , but there will be eventually!</p>
         </div>
       </div>
-      <div class="row content-section">
+      <div id="contact" class="row content-section">
         <div class="col-xs-12 text-center">
           <h2 class="section-header">Contact</h2>
           <h3>
@@ -126,6 +126,11 @@
                 <i class="fa fa-envelope-o fa-stack-1x"></i>
               </span></a>
           </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <footer>Copyright &copy; 2016 - Made by Robert Foltz</footer>
         </div>
       </div>
     </div>

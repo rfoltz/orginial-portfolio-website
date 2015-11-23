@@ -1,10 +1,21 @@
+@font-face {
+    font-family: "Lato Sans Light";
+    src: url("../fonts/lato/Lato-Light.ttf");
+}
+body {
+    font-family: "Lato Sans Light", Arial, Helvetica, sans-serif;
+}
+
 .intro-section {
 	padding:25% 0;
-	background: url("../images/DeathtoStock_Wired3.jpg") center/cover;
+	background: url("../images/DeathtoStock_Creative Community3.jpg") center/cover;
 }
 
 .intro-title {
-	color:#fff;
+	color:#333;
+    background:#e8e8e8;
+    display:inline-block;
+    padding:10px;
 }
 
 @media(min-width:768px) {
@@ -16,6 +27,26 @@
 	.random-facts {
 		font-size: 18px;
 	}
+}
+
+.section-header {
+    display: inline-block;
+    padding: 0 15px 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.2em;
+}
+
+footer {
+    margin: 30px 0 20px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+	footer {
+        padding: 10px 20px;
+        text-align: left;
+    }
 }
 
 /**
